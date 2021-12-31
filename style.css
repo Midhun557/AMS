@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Poppins:ital,wght@1,200&family=Roboto+Slab:wght@300&display=swap');
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}    
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(18, 18, 19, 0.7),rgba(0, 0, 0, 0.61)), url(images/image.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 1000;
+}
+nav{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.logo{
+    width: 40px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+nav ul{
+    background: #000;
+    width: 100%;
+    margin-top: 10px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    color: #fff;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    opacity: 1.0;
+}
+nav ul li a:hover{
+    opacity: 0.5;
+}
+.text{
+    padding: 20px 8%;
+
+}
+nav.sticky{
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    padding: 10px 8%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: padding 1s;
+}
+nav.sticky ul{
+    width: auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Inter:wght@700&family=Poppins:ital,wght@1,200&family=Roboto+Slab:wght@300&display=swap');
+.sectionx{
+    background: black;
+}
+
+h2{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Balsamiq Sans', cursive;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 430px;
+    
+}
+h3{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.678);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    position: relative;
+    bottom: 425px;
+}
+.logo2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    opacity: 0.5;
+    position: relative;
+    bottom: 400px;
+}
+.logo2:hover{
+    opacity: 1.0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Inter:wght@700&family=Poppins:ital,wght@1,200&family=Roboto+Slab:wght@300&family=Roboto:wght@100&display=swap');
+.section2{
+    background: #000;
+    color: #fff;
+}
+.section2 h4{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    bottom: 250px;
+}
+.section2 h5{
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 6px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Balsamiq Sans', cursive;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 253px;
+}
+.text2{
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 15px;
+    letter-spacing: 5px;
+    position: relative;
+    bottom: 150px;
+}
+.text3{
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+    position: relative;
+    bottom: 150px;
+}
+.st{
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    bottom: 140px;
+}
+p{
+    color: rgb(228, 225, 225);
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+h6{
+    color: #fff;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.col-3 p{
+    position: relative;
+    bottom: 100px;
+}
+.col-2{
+    margin-top: 5%;
+}
+.row2{
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.col-3 h5{
+    position: relative;
+    top: 30px;
+}
+.djrock{
+    width: 120px;
+}
+.djrock1{
+    width: 120px;
+}
+.row2 #zoom-in img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.row2 #zoom-in:hover img{
+    transform: scale(1.5);
+}
+.djrock:hover{
+    opacity: 0.5;
+}
+.djrock1:hover{
+    opacity: 0.5;
+}
+.channel{
+    padding-top: 50px;
+}
+p a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+p a:hover{
+    opacity: 0.5;
+}
+.p1{
+    position: relative;
+    right: 50px;
+}
+.p2{
+    position: relative;
+    right: 10px;
+}
+
+
+.section3{
+    background-color: #000;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    font-family: 'Balsamiq Sans', cursive;
+    padding-top: 100px;
+}
+.row3{
+    display: flex;
+    justify-content: space-between;
+}
+.akash{
+    width: 175px;
+    position: relative;
+    left: 250px;
+    padding-top: 50px;
+    
+}
+.akash1{
+    width: 175px;
+    padding-top: 50px;
+}
+.akash2{
+    width: 175px;
+    position: relative;
+    right: 250px;
+    padding-top: 50px;
+}
+.team{
+    letter-spacing: 5px;
+}
+.pname{
+    position: relative;
+    right: 342px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: 'Balsamiq Sans', cursive;;   
+}
+.pname1{
+    position: relative;
+    bottom: 61.5px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: 'Balsamiq Sans', cursive;;
+}
+.pname2{
+    position: relative;
+    bottom: 124px;
+    left: 342px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: 'Balsamiq Sans', cursive;;
+}
+@media screen and (max-width:  1080px){
+    .pname{
+        position: relative;
+        right: 625px;
+    }
+    .pname2{
+        position: relative;
+        bottom: 124px;
+        left: 625px;
+    }    
+}
+.rename{
+    display: none;
+}
+.rename1{
+    display: none;
+}
+.rename2{
+    display: none;
+}
+.row5{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.ptopic{
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+.ptopic1{
+    position: relative;
+    bottom: 190px;
+    right: 30px;
+}  
+.ptopic2{
+    position: relative;
+    bottom: 190px;
+    right: 230px;
+}
+.instalogo{
+    width: 50px;
+    position: relative;
+    left: 305px;
+    bottom: 200px;
+}
+.instalogo1{
+    width: 50px;
+    position: relative;
+    bottom: 175px;
+    left: 95px;
+    
+}
+.instalogo2{
+    width: 50px;
+    position: relative;
+    bottom: 175px;
+    right: 150px;
+}
+.dislogo{
+    width: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 150px;
+    left: 13px;
+}
+.discord{
+    text-align: center;
+}
+#myVideo {
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: 500px;
+    object-fit: cover;
+    z-index: -50;
+    padding-top: 50px;
+}
+.section4{
+    background: black;
+}
+.latest{
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+    bottom: 120px;
+    letter-spacing: 3px;
+    font-family: 'Balsamiq Sans', cursive;;
+}
+.latest1{
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+    bottom: 51px;
+    letter-spacing: 3px;
+    padding-top: 50Px;    
+    font-family: 'Balsamiq Sans', cursive;;
+}
+.col-9{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    position: relative;
+    bottom: 50px;
+}
+.col-10{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    margin-bottom: 200x;
+}
+iframe{
+    opacity: 0.5;
+    
+}
+iframe:hover{
+    opacity: 1;
+}
+.body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background: #333;
+}
+footer{
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 10px;
+    padding: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .social_icon,
+.menu1
+{
+    display: block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 0;
+    flex-wrap: wrap;
+}
+footer .social_icon li,
+footer .menu1 li
+{
+    list-style: none;
+}
+footer .social_icon li a
+{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+footer .menu1 li a
+{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menu1 li a:hover{
+    opacity: 1;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 10px;
+}
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(images/wave.png);
+    background-size: 1000px 100px;
+}
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave_01 4s linear infinite;
+}
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+}
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave_01 3s linear infinite;
+}
+footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 3s linear infinite;
+}
+.forres{
+    display: none;
+}
+@keyframes animateWave_01 {
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
+}
+@keyframes animateWave_02 {
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}

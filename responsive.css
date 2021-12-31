@@ -1,0 +1,279 @@
+@media screen and (max-width:  480px){
+    *{
+        text-align: center;
+    }
+    nav{
+        display: none;
+    }
+    nav.sticky{
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        left: 0;
+        padding: 10px 8%;
+        
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        transition: padding 1s;
+    }
+    h2{
+        width: 100%;
+        font-size: 30px;
+        position: relative;
+        bottom: 600px;
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: center;
+    }
+    h3{
+        font-size: 10px;
+        position: relative;
+        bottom: 590px;
+    }
+    .logo2{
+        width: 30%;
+        padding-top: 30px;
+        opacity: 1;
+        position: relative;
+        bottom: 580px;
+    }
+    nav .sticky{
+        display: none;
+    }
+    nav ul li{
+        display: none;
+    }
+    .section2 h4{
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 3px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .section2 h5{
+        font-size: 30px;
+        color: #fff;
+        letter-spacing: 6px;
+        text-align: center;
+        padding-top: 10px;
+        font-family: 'Balsamiq Sans', cursive;
+        text-transform: uppercase;
+    }
+    .text2{
+        text-transform: uppercase;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 80px;
+        letter-spacing: 3px;
+    }
+    .text3{
+        text-transform: uppercase;
+        font-size: 15px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .st{
+        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: 5px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    p{
+        color: rgb(228, 225, 225);
+        font-size: 17px;
+        line-height: 22px;
+        font-weight: 300;
+        padding: 20px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    h6{
+        color: #fff;
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    .col-2 h5{
+        position: relative;
+        top: 30px;
+    }
+    .djrock{
+        width: 75px;
+        position: relative;
+        top: 50px;
+        right: 70px;
+        align-items: center;
+    }
+    .djrock1{
+        width: 80px;
+        position: relative;
+        top: 54px;
+        right: 50px;
+        
+    }
+    .p1{
+        position: relative;
+        right: 70px;
+        top: 30px;
+    }
+    .p2{
+        position: relative;
+        right: 54px;
+        top: 30px;
+    }
+    .section3 h1{
+        color: #fff;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 300;
+        letter-spacing: 4px;
+        font-family: 'Balsamiq Sans', cursive;
+        padding-top: 100px;
+    }
+    .akash1{
+        width: 140px;
+        padding-top: 50px;
+        position: relative;
+        right: 20px;
+    }    
+    .akash{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 140px;
+        position: relative;
+        left: 120px;
+        top: 340px;
+        padding-top: 50px;
+        
+    }
+    .akash2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 140px;
+        position: relative;
+        right: 155px;
+        top: 750px;
+        padding-top: 50px;
+        
+    }
+    .rename{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+        font-size: large;
+        position: relative;
+        top: 160px;
+        font-family: 'Balsamiq Sans', cursive;;
+    }
+    .rename2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+        font-size: large;
+        position: relative;
+        top: 550px;
+        left: 5px;
+        font-family: 'Balsamiq Sans', cursive;;
+    }
+    .ptopic{
+        position: relative;
+        bottom: -120px;
+        left: 145px;
+        font-size: 15px;
+        padding: 0% 0%;
+        text-align: center;
+        
+    }
+    .ptopic1{
+        position: relative;
+        bottom: 210px;
+        right: 1px;
+        font-size: 15px;
+    }  
+    .ptopic2{
+        position: relative;
+        bottom: -530px;
+        right: 165px;
+        
+    }
+    .instalogo{
+        width: 50px;
+        position: relative;
+        left: 285px;
+        bottom: 20px;
+        display: block;
+        
+    }
+    .instalogo1{
+        width: 50px;
+        position: relative;
+        bottom: 310px;
+        left: 115px;
+    }
+    .instalogo2{
+        width: 50px;
+        position: relative;
+        bottom: -450px;
+        right: 50px;
+
+    }
+    .latest{
+        text-transform: uppercase;
+        font-size: 20px;
+        position: relative;
+        bottom: 70px;
+        letter-spacing: 3px;
+        display: none;
+    }
+    .latest1{
+        text-transform: uppercase;
+        font-size: 20px;
+        position: relative;
+        bottom: 1px;
+        letter-spacing: 3px;
+        padding-top: 50Px;
+        display: none;    
+    }
+    .dislogo{
+        width: 125px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        bottom: -500px;
+        left: 13px;
+        display: none;
+    }
+    iframe{
+        display: none;
+    }
+    
+    .forres{
+        display: block;
+        width: 100%;
+        height: 300px;
+        background: #000;       
+    }
+    .forres p{
+        color: #000;
+    }
+    .menu1{
+        display: none;
+    }
+    footer .waves{
+        display: none;
+    }
+    footer{
+        background-color: rgba(20, 19, 19, 0.555);
+        padding-top: 20px;
+    }
+}
