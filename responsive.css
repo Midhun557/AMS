@@ -161,7 +161,7 @@
         width: 140px;
         position: relative;
         top: 850px;
-        right: 170px;
+        right: 175px;
         padding-top: 50px;
         
     }
@@ -200,7 +200,7 @@
         text-align: center;
         position: relative;
         bottom: 550px;
-        right: 25px;
+        right: 5px;
         font-size: 15px;
     }  
     .ptopic2{
@@ -208,8 +208,7 @@
         text-align: center;
         position: relative;
         top: 330px;
-        right: 140px;
-        
+        right: 135px;      
     }
     .instalogo{
         width: 50px;
