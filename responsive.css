@@ -138,7 +138,7 @@
     .akash1{
         width: 140px;
         position: relative;
-        right: 20px;
+        right: 30px;
         padding-top: 50px;
         padding-left: 5px;
         padding-right: 10px;
@@ -150,7 +150,7 @@
         width: 140px;
         position: relative;
         top: 380px;
-        left: 120px;
+        left: 105px;
         padding-top: 50px;
         
     }
@@ -161,7 +161,7 @@
         width: 140px;
         position: relative;
         top: 850px;
-        right: 165px;
+        right: 170px;
         padding-top: 50px;
         
     }
@@ -200,7 +200,7 @@
         text-align: center;
         position: relative;
         bottom: 550px;
-        right: 15px;
+        right: 25px;
         font-size: 15px;
     }  
     .ptopic2{
@@ -208,7 +208,7 @@
         text-align: center;
         position: relative;
         top: 330px;
-        right: 150px;
+        right: 140px;
         
     }
     .instalogo{
