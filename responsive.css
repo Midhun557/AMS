@@ -106,7 +106,7 @@
         width: 75px;
         position: relative;
         top: 50px;
-        right: 70px;
+        right: 95px;
         align-items: center;
     }
     .djrock1{
@@ -118,7 +118,7 @@
     }
     .p1{
         position: relative;
-        right: 70px;
+        right: 95px;
         top: 30px;
     }
     .p2{
@@ -137,9 +137,11 @@
     }
     .akash1{
         width: 140px;
-        padding-top: 50px;
         position: relative;
         right: 20px;
+        padding-top: 50px;
+        padding-left: 5px;
+        padding-right: 10px;
     }    
     .akash{
         display: block;
@@ -147,8 +149,8 @@
         margin-right: auto;
         width: 140px;
         position: relative;
+        top: 380px;
         left: 120px;
-        top: 340px;
         padding-top: 50px;
         
     }
@@ -158,15 +160,15 @@
         margin-right: auto;
         width: 140px;
         position: relative;
-        right: 155px;
-        top: 750px;
+        top: 850px;
+        right: 165px;
         padding-top: 50px;
         
     }
     .rename{
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        padding: 70px 0;
+        text-align: center;
         color: #fff;
         font-size: large;
         position: relative;
@@ -175,34 +177,38 @@
     }
     .rename2{
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        padding: 70px 0;
+        text-align: center;
         color: #fff;
         font-size: large;
         position: relative;
-        top: 550px;
-        left: 5px;
+        top: 460px;
+
         font-family: 'Balsamiq Sans', cursive;;
     }
     .ptopic{
-        position: relative;
-        bottom: -120px;
-        left: 145px;
-        font-size: 15px;
-        padding: 0% 0%;
+        padding: 70px 0;
         text-align: center;
-        
+        position: relative;
+        left: 125px;
+        bottom: 140px;
+        font-size: 15px;
     }
     .ptopic1{
+        display: block;
+        padding: 70px 0;
+        text-align: center;
         position: relative;
-        bottom: 210px;
-        right: 1px;
+        bottom: 550px;
+        right: 15px;
         font-size: 15px;
     }  
     .ptopic2{
+        padding: 70px 0;
+        text-align: center;
         position: relative;
-        bottom: -530px;
-        right: 165px;
+        top: 330px;
+        right: 150px;
         
     }
     .instalogo{
@@ -210,16 +216,18 @@
         position: relative;
         left: 285px;
         bottom: 20px;
-        display: block;
+        display: none;
         
     }
     .instalogo1{
+        display: none;
         width: 50px;
         position: relative;
         bottom: 310px;
         left: 115px;
     }
     .instalogo2{
+        display: none;
         width: 50px;
         position: relative;
         bottom: -450px;
