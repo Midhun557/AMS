@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+
+
+    <div id="preloader"></div>
+
+
     <div class="header">
         <nav id="navbar">
             <a href="#home"><img src="images/amsenter.png" class="logo"></a>
@@ -203,6 +208,15 @@
       AOS.init();
     </script>
 
+
+    <script>
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+        
+    </script>
     
 </body>
 </html>
